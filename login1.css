@@ -1,0 +1,76 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 20;
+    padding: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Add CSS for background image */
+
+    background-image: url('image.jpg');
+    background-size: cover; /* This scales the image to cover the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #06f111;
+}
+
+div {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e9f0ea;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

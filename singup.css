@@ -1,0 +1,73 @@
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    min-height: 100vh; /* Ensure the body covers the full viewport height */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+      /* Add CSS for background image */
+
+      background-image: url('image.jpg');
+      background-size: cover; /* This scales the image to cover the entire body */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+  
+}
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: center;
+}
+  
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  div {
+    margin-top: 20px;
+}
